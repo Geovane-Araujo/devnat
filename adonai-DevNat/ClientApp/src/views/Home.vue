@@ -1,5 +1,5 @@
 <template>
-  <Menubar :model="items">
+  <Menubar class="p-tabmenu" :model="items">
     <template #start>
         <Button @click="visivel=true;" icon="pi pi-align-justify" :style="{'margin-left': '0 .5em'}"/>
     </template>
@@ -29,12 +29,17 @@ export default {
       visivel: false,
       items: [
         {
-          label: 'Pagina Inicial',
+          label: 'Visão Geral',
           icon: 'pi pi-fw pi-home',
           to: '/dashboard'
         },
         {
           label: 'Generate Code',
+          icon: 'pi pi-fw pi-calendar',
+          to: '/code'
+        },
+        {
+          label: 'Downloads',
           icon: 'pi pi-fw pi-calendar'
         }
       ]

@@ -1,39 +1,38 @@
 <template>
-  <div>
-    <H1 class="textColors">Compromissos</H1>
-    <FullCalendar :events="eventos"/>
+  <div class="p-grid p-fluid" style="height:91%;width: 100%">
+    <div class="p-col-2" style="margin: 3% 0% 2% 2%;background-color: #1F2D40;">
+      <dir style=""></dir>
+    </div>
   </div>
 </template>
-
 <script>
-import FullCalendar from 'primevue/fullcalendar'
-import dayGridPlugin from '@fullcalendar/daygrid'
+// import FullCalendar from 'primevue/fullcalendar'
+/* import dayGridPlugin from '@fullcalendar/daygrid'
 import timeGridPlugin from '@fullcalendar/timegrid'
 import interactionPlugin from '@fullcalendar/interaction'
-
+import ptLocale from '@fullcalendar/core/locales/pt-br' */
+// <FullCalendar :options="options"/>
 export default {
   data () {
     return {
-      eventos: [
-        {
-          id: 1,
-          title: 'teste',
-          start: '2021-02-11'
+      options: {
+        // plugins: [dayGridPlugin, timeGridPlugin, interactionPlugin],
+        initialDate: new Date(),
+        // locale: ptLocale,
+        aspectRatio: 3,
+        headerToolbar: {
+          left: 'prev,next',
+          center: 'title',
+          right: 'dayGridMonth,timeGridWeek,timeGridDay'
         },
-        {
-          id: 2,
-          title: 'teste',
-          start: '2021-02-13'
-        }
-      ]
+        editable: true
+      },
+      events: null
     }
   },
-  components: [
-    FullCalendar,
-    dayGridPlugin,
-    timeGridPlugin,
-    interactionPlugin
-  ]
+  components: {
+    // FullCalendar
+  }
 }
 </script>
 <style lang="scss" scoped>
