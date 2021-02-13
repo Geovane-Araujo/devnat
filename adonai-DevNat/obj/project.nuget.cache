@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sJHqN0Kw+d0Farg4nAMbS47DhuoMMbMBD6Gu0wY72ZYOZBoshYOc9iG1SQaT8SzMNKPhXuSIPVBueB4Kld6EPg==",
+  "dgSpecHash": "Ttf7M4BJ7AJ2kZFn8cpfZ3SHfX5x9J7r5kdlPAoPsnqjh4IczLrKA7kuRmtwaCNR4t80yQkxDHnRMeFT+JHV1A==",
   "success": true,
-  "projectFilePath": "E:\\Adonai Workspace\\AdonaiSoft Sistemas\\Adonai DevNat\\adonai-DevNat\\adonai-DevNat\\adonai-DevNat.csproj",
+  "projectFilePath": "E:\\Adonai Workspace\\AdonaiSoft Sistemas\\Adonai DevNat\\adonai-devNat\\adonai-DevNat\\adonai-DevNat.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\geova\\.nuget\\packages\\microsoft.aspnetcore.nodeservices\\3.0.0\\microsoft.aspnetcore.nodeservices.3.0.0.nupkg.sha512",
     "C:\\Users\\geova\\.nuget\\packages\\microsoft.aspnetcore.spaservices\\3.0.0\\microsoft.aspnetcore.spaservices.3.0.0.nupkg.sha512",

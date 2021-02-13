@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Adonai Workspace\\AdonaiSoft Sistemas\\Adonai DevNat\\adonai-DevNat\\adonai-DevNat\\adonai-DevNat.csproj": {}
+    "E:\\Adonai Workspace\\AdonaiSoft Sistemas\\Adonai DevNat\\adonai-devNat\\adonai-DevNat\\adonai-DevNat.csproj": {}
   },
   "projects": {
-    "E:\\Adonai Workspace\\AdonaiSoft Sistemas\\Adonai DevNat\\adonai-DevNat\\adonai-DevNat\\adonai-DevNat.csproj": {
+    "E:\\Adonai Workspace\\AdonaiSoft Sistemas\\Adonai DevNat\\adonai-devNat\\adonai-DevNat\\adonai-DevNat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Adonai Workspace\\AdonaiSoft Sistemas\\Adonai DevNat\\adonai-DevNat\\adonai-DevNat\\adonai-DevNat.csproj",
+        "projectUniqueName": "E:\\Adonai Workspace\\AdonaiSoft Sistemas\\Adonai DevNat\\adonai-devNat\\adonai-DevNat\\adonai-DevNat.csproj",
         "projectName": "adonai-DevNat",
-        "projectPath": "E:\\Adonai Workspace\\AdonaiSoft Sistemas\\Adonai DevNat\\adonai-DevNat\\adonai-DevNat\\adonai-DevNat.csproj",
+        "projectPath": "E:\\Adonai Workspace\\AdonaiSoft Sistemas\\Adonai DevNat\\adonai-devNat\\adonai-DevNat\\adonai-DevNat.csproj",
         "packagesPath": "C:\\Users\\geova\\.nuget\\packages\\",
-        "outputPath": "E:\\Adonai Workspace\\AdonaiSoft Sistemas\\Adonai DevNat\\adonai-DevNat\\adonai-DevNat\\obj\\",
+        "outputPath": "E:\\Adonai Workspace\\AdonaiSoft Sistemas\\Adonai DevNat\\adonai-devNat\\adonai-DevNat\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

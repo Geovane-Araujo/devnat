@@ -9,21 +9,19 @@ namespace adonai_DevNat.Models
     {
         public Int32 server { get; set; }
 
-        public string localDb { get; set; }
-
-        public string dataBaseName { get; set; }
-
-        public string user { get; set; }
-
         public string tableName { get; set; }
 
         public string package { get; set; }
+
+        public string language { get; set; }
 
         public string className { get; set; }
 
         public string routeName { get; set; }
 
-        public Byte tipo { get; set; }
+        public string code { get; set; }
+
+        public Int32 tipo { get; set; }
 
         public Byte model { get; set; }
 

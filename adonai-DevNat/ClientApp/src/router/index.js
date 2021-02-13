@@ -1,14 +1,14 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import DashBoard from '../views/DashBoard.vue'
-import Code from '../views/Code.vue'
+import Code from '../views/Code/Code.vue'
 
 const routes = [
   {
     path: '/',
     name: 'Home',
     component: Home,
-    redirect: { name: 'dashboard', params: { name: 'dashboard' } },
+    redirect: { name: 'code', params: { name: 'code' } },
     children: [
       {
         path: '/dashboard',

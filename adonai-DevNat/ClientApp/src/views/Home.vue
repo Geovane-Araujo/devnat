@@ -1,12 +1,8 @@
 <template>
   <Menubar class="p-tabmenu" :model="items">
     <template #start>
-        <Button @click="visivel=true;" icon="pi pi-align-justify" :style="{'margin-left': '0 .5em'}"/>
+        <!-- <Button @click="visivel=true;" icon="pi pi-align-justify" :style="{'margin-left': '0 .5em'}"/> -->
     </template>
-<!--     <template #end>
-        <InputText placeholder="Search" type="text" />
-        <Button label="Logout" icon="pi pi-power-off" :style="{'margin-left': '0 .5em'}"/>
-    </template> -->
   </Menubar>
   <BlockUI :blocked="visivel" :fullScreen="true">
     <Sidebar v-model:visible="visivel" :baseZIndex="1000">
@@ -19,7 +15,7 @@
 <script>
 import Menubar from 'primevue/menubar'
 /// import InputText from 'primevue/inputtext'
-import Button from 'primevue/button'
+// import Button from 'primevue/button'
 import Sidebar from 'primevue/sidebar'
 import BlockUI from 'primevue/blockui'
 
@@ -28,11 +24,6 @@ export default {
     return {
       visivel: false,
       items: [
-        {
-          label: 'Visão Geral',
-          icon: 'pi pi-fw pi-home',
-          to: '/dashboard'
-        },
         {
           label: 'Generate Code',
           icon: 'pi pi-fw pi-calendar',
@@ -48,7 +39,7 @@ export default {
   components: {
     Menubar,
     // InputText,
-    Button,
+    // Button,
     Sidebar,
     BlockUI
   }
