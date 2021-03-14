@@ -11,7 +11,8 @@ export default {
     return {
       form: {
         server: 0,
-        tableName: '',
+        dataBaseName: '',
+        tableName: 'Pessoa',
         package: '',
         className: '',
         routeName: '',
@@ -39,8 +40,7 @@ export default {
   },
   methods: {
     getCode (form) {
-      var a = JSON.stringify(form)
-      axios.post('/api/v1/createcode', a).then(res => {
+      axios.post('/api/v1/createcode', form).then(res => {
         alert(res.data)
       })
     }

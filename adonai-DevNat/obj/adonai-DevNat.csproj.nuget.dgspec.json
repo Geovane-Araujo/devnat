@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Adonai Workspace\\AdonaiSoft Sistemas\\Adonai DevNat\\adonai-devNat\\adonai-DevNat\\adonai-DevNat.csproj": {}
+    "E:\\Adonai Workspace\\AdonaiSoft Sistemas\\Adonai DevNat\\adonai-DevNat\\adonai-DevNat\\adonai-DevNat.csproj": {}
   },
   "projects": {
-    "E:\\Adonai Workspace\\AdonaiSoft Sistemas\\Adonai DevNat\\adonai-devNat\\adonai-DevNat\\adonai-DevNat.csproj": {
+    "E:\\Adonai Workspace\\AdonaiSoft Sistemas\\Adonai DevNat\\adonai-DevNat\\adonai-DevNat\\adonai-DevNat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Adonai Workspace\\AdonaiSoft Sistemas\\Adonai DevNat\\adonai-devNat\\adonai-DevNat\\adonai-DevNat.csproj",
+        "projectUniqueName": "E:\\Adonai Workspace\\AdonaiSoft Sistemas\\Adonai DevNat\\adonai-DevNat\\adonai-DevNat\\adonai-DevNat.csproj",
         "projectName": "adonai-DevNat",
-        "projectPath": "E:\\Adonai Workspace\\AdonaiSoft Sistemas\\Adonai DevNat\\adonai-devNat\\adonai-DevNat\\adonai-DevNat.csproj",
+        "projectPath": "E:\\Adonai Workspace\\AdonaiSoft Sistemas\\Adonai DevNat\\adonai-DevNat\\adonai-DevNat\\adonai-DevNat.csproj",
         "packagesPath": "C:\\Users\\geova\\.nuget\\packages\\",
-        "outputPath": "E:\\Adonai Workspace\\AdonaiSoft Sistemas\\Adonai DevNat\\adonai-devNat\\adonai-DevNat\\obj\\",
+        "outputPath": "E:\\Adonai Workspace\\AdonaiSoft Sistemas\\Adonai DevNat\\adonai-DevNat\\adonai-DevNat\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\geova\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -26,8 +28,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/mJh2N7FVKviNQilzHiuDlVAwG3U68pergH5AThRKW6jQCL8DjS/api": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -45,6 +46,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Npgsql": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
             "VueCliMiddleware": {
               "target": "Package",
               "version": "[3.0.0, )"
@@ -68,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

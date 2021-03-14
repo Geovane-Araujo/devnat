@@ -15,11 +15,18 @@ namespace adonai_DevNat.Controllers
     {
         [AcceptVerbs("POST")]
         [Route("createcode")]
-        public string createCode([FromBody] dynamic config)
+        public string createCode([FromBody] GenerateCode config)
         {
             String code = "Teste\n 2";
             // GenerateCode ge = JsonSerializer.Deserialize<GenerateCode>(config);
             return code;
         }
+
+        public string CreateModel(GenerateCode generate)
+        {
+            string code = "";
+            return code;
+        }
+
     }
 }

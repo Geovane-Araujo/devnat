@@ -8,7 +8,7 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home,
-    redirect: { name: 'code', params: { name: 'code' } },
+    redirect: { name: 'Code', params: { name: 'Code' } },
     children: [
       {
         path: '/dashboard',

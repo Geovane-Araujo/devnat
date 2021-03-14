@@ -21,6 +21,8 @@ namespace adonai_DevNat.Models
 
         public string code { get; set; }
 
+        public string databaseName { get; set; }
+
         public Int32 tipo { get; set; }
 
         public Byte model { get; set; }

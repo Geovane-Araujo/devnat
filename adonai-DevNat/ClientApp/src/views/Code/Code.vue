@@ -15,6 +15,12 @@
               </div>
               <div class="p-field p-col-12 p-md-12">
                 <span class="p-float-label">
+                  <InputText id="databasename" v-model="form.dataBaseName" type="text"/>
+                  <label for="databasename">Nome do Banco de Dados</label>
+                </span>
+              </div>
+              <div class="p-field p-col-12 p-md-12">
+                <span class="p-float-label">
                   <InputText id="banco" v-model="form.tableName" type="text"/>
                   <label for="banco">Nome do Tabela</label>
                 </span>
